@@ -12,6 +12,7 @@ dbpassword=db password
 5.given satellite details are added in project(in future we can change as file upload)
 6.run the application by using "python manage.py runserver"
 # running application
+swagger used to api interface "localhost/swagger/" will list down the apis
 7.run the post api /satellite/satinfo_from_txt_file/ to collect sat information (you can choose 30sat or 3000 sat as per your choice)
 8.use get api /satellite/ to list down all satelite details(satelite ids of all satellite are liste here )
 9.use get api /satellite/id/time_from_position_of_satelite with input rectangular cordinates and satellite id to which satellite you need to find time 
